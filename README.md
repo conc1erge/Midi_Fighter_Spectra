@@ -8,7 +8,7 @@ An open-source firmware for the **DJ TechTools Midi Fighter Spectra**, ported an
 
 The original Midi Fighter 64 prototype was made by bridging four Midi Fighter Spectra boards into a single chassis. 
 In [this](https://djtechtools.com/2015/04/21/shawn-wasabi-64-button-midi-fighter-special-edition/) blog post featuring Shawn Wasabi's Marble Soda hit, it's actually pretty fascinating and also [hilarious](https://s11234.pcdn.co/wp-content/uploads/2015/04/mf64-behind-the-dev.jpg.optimal.jpg).
-As I searched through the (now obsolete) production MF64 firmware repository (`wunnation/Midi_Fighter_64`), it looks like it preserved much of the underlying Spectra firmware architecture.
+As I searched through the (now obsolete) production MF64 firmware repository, it looks like it preserved much of the underlying Spectra firmware architecture.
 The LUFA USB stack, SysEx handling, debounce logic, and LED animation pipelines, which are all scaled up to an 8×8 grid for the 64.
 
 Now, my goal of this project is to:
