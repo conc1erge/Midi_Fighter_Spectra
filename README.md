@@ -35,7 +35,7 @@ So, the MCU *may* just be a lot more capable, because it's basically a diet 3D.
 | **Input Scanning** | **MC74HC165A** PISO Shift Registers | Serialized parallel inputs for the 16 Sanwa buttons + 6 side switches |
 | **LED Drivers** | **TI TLC5946 / TLC59461** | Multichannel 16-channel constant-current sink PWM drivers daisy-chained |
 | **Grid Layout** | 16 Sanwa OBSF-24 arcade switches | Arranged in a 4×4 physical matrix with individual RGB ring backlights |
-| **Auxiliary I/O** | 4 tactile side push-buttons | Dedicated to bank switching, utility toggles, and SysEx triggers |
+| **Auxiliary I/O** | 6 tactile side push-buttons | Dedicated to bank switching, utility toggles, and SysEx triggers |
 | **Bootloader** | Atmel DFU Bootloader (FLIP compatible) | USB VID: `0x03EB` / PID: `0x2FF4` |
 
 ---
